@@ -3,9 +3,9 @@ Credit Card Fraud Detection using Machine Learning
 
 ## **1. Project Overview**
 
-Credit card fraud has become one of the most pressing financial crimes in the digital economy. Detecting fraudulent transactions in real time is a major challenge due to the **high class imbalance** (very few fraud cases compared to genuine ones).
+Fraud with credit cards turned into one of the most acute financial crimes in the digital economy. In real time, it is a significant challenge because the imbalance between classes (very few cases of fraud compared to the authentic ones) is enormous.
 
-This project aims to build a **Machine Learning-based Fraud Detection System** that can automatically identify potentially fraudulent transactions from historical data, thereby minimizing financial losses and ensuring secure transactions.
+The proposed project focuses on creating a Fraud Detection System developed usingMachine Learning that subsequently detects potentially fraudulent transactions directly on historical information and reports them to help keep financial losses at a minimal and secure transaction.
 
 ---
 
@@ -59,16 +59,16 @@ This project aims to build a **Machine Learning-based Fraud Detection System** t
 
 ### **Step 1: Data Preprocessing**
 
-* Loaded the dataset using `pandas`.
-* Checked for missing values (none found).
-* Scaled `Time` and `Amount` using `StandardScaler`.
+* Load the dataset using `pandas`.
+* Check for missing values (none found).
+* Scale `Time` and `Amount` using `StandardScaler`.
 * Split the dataset into **80% training** and **20% testing** subsets.
 
 ### **Step 2: Exploratory Data Analysis (EDA)**
 
-* Visualized class imbalance using bar plots.
-* Observed that only 0.17% of transactions were fraudulent.
-* Explored correlations among PCA features.
+* Visualize class imbalance using bar plots.
+* Observe that only 0.17% of transactions were fraudulent.
+* Explore correlations among PCA features.
 
 ### **Step 3: Handling Class Imbalance**
 
@@ -143,11 +143,11 @@ Used **classification metrics** suited for imbalanced datasets:
 
 ## **11. Conclusion**
 
-This project successfully demonstrates the use of machine learning algorithms for **credit card fraud detection**.
-Through preprocessing, model training, and evaluation, we achieved high accuracy and strong recall using ensemble methods like Random Forest and XGBoost.
+This project has been able to showcase machine learning algorithms applied in detecting credit card frauds.
+The model training and evaluation involved preprocessing, training the models, and testing on ensemble models were highly accurate with a good recall on the highest accuracy in both the Random Forest and XGBoost models.
 
 >  **Final Verdict:**
-> XGBoost emerged as the most effective model, achieving ~99.9% accuracy and 0.99 ROC-AUC score, showing strong capability in identifying fraudulent transactions.
+> The best model was XGBoost which resulted in a high score of 0.99 ROC-AUC and a high accuracy of up to 99.9, thus demonstrating a good predicate capability in detecting fraudulent transactions.
 
 ---
 
