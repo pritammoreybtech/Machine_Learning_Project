@@ -94,14 +94,8 @@ Used **classification metrics** suited for imbalanced datasets:
 ---
 
 ## **6. Results and Performance**
+<img width="728" height="631" alt="image" src="https://github.com/user-attachments/assets/8ffe7188-8a45-4d77-a2c6-29f6d92a66cb" />
 
-| Model               | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
-| ------------------- | -------- | --------- | ------ | -------- | ------- |
-| Logistic Regression | 99.3%    | 0.84      | 0.68   | 0.75     | 0.97    |
-| Random Forest       | 99.9%    | 0.92      | 0.86   | 0.89     | 0.99    |
-| XGBoost             | 99.9%    | 0.93      | 0.88   | 0.90     | 0.99    |
-
-**Best Performing Model:** XGBoost Classifier (Highest Recall and ROC-AUC)
 
 ---
 
