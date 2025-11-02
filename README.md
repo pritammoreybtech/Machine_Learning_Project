@@ -20,7 +20,7 @@ The proposed project focuses on creating a Fraud Detection System developed usin
 ---
 
 ## **3. Dataset Information**
-> Kaggle: Credit Card Fraud Detection Dataset (European Cardholders)
+Kaggle: Credit Card Fraud Detection Dataset (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 ### **Dataset Details**
 
