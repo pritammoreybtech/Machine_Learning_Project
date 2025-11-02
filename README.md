@@ -166,7 +166,3 @@ Through preprocessing, model training, and evaluation, we achieved high accuracy
 | ----------------- | -------------- | ------------------------------ |
 | Pritam Morey      | 22070521134    | Student                        |
 | **Guide:**        | Dr. Deepak Asudani Sir | Project Mentor         |
-
----
-
-Would you like me to generate this same README file as a **downloadable `.docx` or `.pdf` report** (formatted for project submission)?
