@@ -21,10 +21,6 @@ The proposed project focuses on creating a Fraud Detection System developed usin
 
 ## **3. Dataset Information**
 
-### **Dataset Source**
-
-**Kaggle:** [Credit Card Fraud Detection Dataset (European Cardholders)](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-
 ### **Dataset Details**
 
 * **Number of records:** 284,807
@@ -110,19 +106,19 @@ Used **classification metrics** suited for imbalanced datasets:
 
 ## **8. Key Insights**
 
-* The dataset is **highly imbalanced**, requiring special handling techniques.
-* **Recall** is prioritized over accuracy — we aim to catch as many frauds as possible.
-* **Random Forest** and **XGBoost** models perform significantly better than Logistic Regression.
-* PCA-transformed features hide real-world meaning but still offer predictive patterns.
-* Feature scaling (especially on `Amount` and `Time`) improves convergence.
+* The data is very imbalanced, they need specific approaches to handling them.
+* **Recall** gains precedence over accuracy - we would like to identify as many frauds as possible.
+Random Forest and XGBoost models are very effective in comparison to Logistic Regression.
+PCA transformed features mask meaningfulness about the real world, but still can be used to predict patterns.
+* Convergence is improved when there is feature scaling (particularly on the features of Amount and Time).
 
 ---
 
 ## **9. Limitations**
 
-* Features are anonymized (V1–V28), so business interpretation is limited.
-* The model performance depends on data distribution; new fraud patterns might not be detected.
-* Dataset is from 2013 (may not reflect modern fraud behavior).
+* features are anonymized (V1 -V28), thus restricting business interpretation.
+* The model performance is dependent on data distribution; new ways of committing fraud may not be detected.
+* 2013 (not necessarily a reputable source of data on current-day fraud trends).
 
 ---
 
@@ -139,9 +135,6 @@ Used **classification metrics** suited for imbalanced datasets:
 
 This project has been able to showcase machine learning algorithms applied in detecting credit card frauds.
 The model training and evaluation involved preprocessing, training the models, and testing on ensemble models were highly accurate with a good recall on the highest accuracy in both the Random Forest and XGBoost models.
-
->  **Final Verdict:**
-> The best model was XGBoost which resulted in a high score of 0.99 ROC-AUC and a high accuracy of up to 99.9, thus demonstrating a good predicate capability in detecting fraudulent transactions.
 
 ---
 
